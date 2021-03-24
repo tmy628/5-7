@@ -1,1 +1,1 @@
-<p><%= link_to "#{post_image.post_comments.count} コメント", post_image_path(post_image.id) %></p>
+<%= render 'post_images/list', post_images: @post_images %>
